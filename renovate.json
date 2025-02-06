@@ -4,8 +4,8 @@
   "timezone": "Asia/Tokyo",
   "packageRules": [
     {
-      "matchPackageNames": ["prettier"],
-      "enabled": true
+      "matchPackageNames": ["*"],
+      "enabled": false
     }
   ]
 }
