@@ -2,10 +2,13 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
   "timezone": "Asia/Tokyo",
+  "npm": {
+    "enabled": false
+  },
   "packageRules": [
     {
-      "matchPackageNames": ["*"],
-      "enabled": false
+      "matchPackageNames": ["prettier"],
+      "enabled": true
     }
   ]
 }
