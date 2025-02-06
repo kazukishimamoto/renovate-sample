@@ -1,15 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
-  "timezone": "Asia/Tokyo",
-  "packageRules": [
-    {
-      "matchPackageNames": ["prettier"],
-      "enabled": true
-    },
-    {
-      "matchPackageNames": ["*"],
-      "enabled": false
-    }
-  ]
+  "timezone": "Asia/Tokyo"
 }
