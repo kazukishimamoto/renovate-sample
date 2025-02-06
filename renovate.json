@@ -5,7 +5,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["prettier"],
-      "enabled": true
+      "enabled": false
     }
   ]
 }
