@@ -4,10 +4,12 @@
   "timezone": "Asia/Tokyo",
   "packageRules": [
     {
+      "matchManagers": ["npm"],
       "matchPackageNames": ["*"],
       "enabled": false
     },
     {
+      "matchManagers": ["npm"],
       "matchPackageNames": ["prettier"],
       "enabled": true
     }
